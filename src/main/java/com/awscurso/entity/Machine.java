@@ -2,16 +2,22 @@ package com.awscurso.entity;
 
 import java.io.Serializable;
 
+
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter @Setter
-
+@Data
 public class Machine implements Serializable {
+	public Machine(String ip) {
+		// TODO Auto-generated constructor stub
+	}
 	/**
 	 * 
 	 */
